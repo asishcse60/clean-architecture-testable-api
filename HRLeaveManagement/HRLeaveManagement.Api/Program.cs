@@ -1,4 +1,3 @@
-using System.Reflection;
 using HRLeaveManagement.Application;
 using HRLeaveManagement.Application.Configurations;
 using HRLeaveManagement.Application.Contracts.Infrastructure;
@@ -6,7 +5,6 @@ using HRLeaveManagement.Application.Contracts.Persistence;
 using HRLeaveManagement.Infrastructure.Mail;
 using HRLeaveManagement.Persistence;
 using HRLeaveManagement.Persistence.Repositories;
-using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 

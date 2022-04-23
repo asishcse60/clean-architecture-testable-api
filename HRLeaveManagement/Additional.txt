@@ -16,3 +16,9 @@ update-database
 
 add-migration SeedingLeaveRequests
 update-database
+
+
+Test
+------------
+1. Select a xUnit .NET Core project from visiual studio.
+2. Install Moq and Shouldly library from nuget.
