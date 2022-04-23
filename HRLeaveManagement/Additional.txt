@@ -1,0 +1,18 @@
+Migration DB
+------------
+1. Install Microsoft.EntityFrameworkCore.Tools in API project
+2. Select DBContext project in Nuget package manager console where DbContext Inherits.
+3. add-migration InitialCreation
+4. update-database
+Note: All command run for DBContext project. Now You will see the db table in SQL Server explorer view.
+
+Seeding Data:
+------------------
+add-migration SeedingLeaveTypes
+update-database
+
+add-migration SeedingLeaveAllocation
+update-database
+
+add-migration SeedingLeaveRequests
+update-database

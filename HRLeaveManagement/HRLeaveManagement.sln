@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA5FC9E8-2E25-46EB-8C9D-93D44DD04CAD}"
+	ProjectSection(SolutionItems) = preProject
+		Additional.txt = Additional.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FD3244FF-3841-4A2B-B1E2-A9E8765F9495}"
 EndProject
@@ -22,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Persistence", "HRLeaveManagement.Persistence\HRLeaveManagement.Persistence.csproj", "{18C402AF-8D6A-4A2F-9EEA-E3B96DF8C469}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Infrastructure", "HRLeaveManagement.Infrastructure\HRLeaveManagement.Infrastructure.csproj", "{E0AAEFEB-72CC-4BF1-890F-7077A37AE941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Api", "HRLeaveManagement.Api\HRLeaveManagement.Api.csproj", "{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +50,10 @@ Global
 		{E0AAEFEB-72CC-4BF1-890F-7077A37AE941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0AAEFEB-72CC-4BF1-890F-7077A37AE941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0AAEFEB-72CC-4BF1-890F-7077A37AE941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +67,7 @@ Global
 		{117AA710-CFB1-4F8B-BE69-0B0EF0F13AEA} = {86BB1B36-8B3E-44F0-AE36-EE8BCB80D7BC}
 		{18C402AF-8D6A-4A2F-9EEA-E3B96DF8C469} = {1CCF887F-E2E4-4C96-9845-C1667B8D4A59}
 		{E0AAEFEB-72CC-4BF1-890F-7077A37AE941} = {1CCF887F-E2E4-4C96-9845-C1667B8D4A59}
+		{7E9A7ABF-88DD-46F1-9A6D-28A8565C7FB2} = {07E4C93F-73E3-44AA-813B-D0CD6B780823}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B81B52D6-7471-4946-9717-36882818B153}
