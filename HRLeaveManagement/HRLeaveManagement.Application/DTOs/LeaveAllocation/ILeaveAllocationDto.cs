@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HRLeaveManagement.Application.DTOs.Common;
+using HRLeaveManagement.Application.DTOs.LeaveType;
 
 namespace HRLeaveManagement.Application.DTOs.LeaveAllocation
 {
-    public class CreateLeaveAllocationDto : ILeaveAllocationDto
+    public interface ILeaveAllocationDto
     {
         public int NumberOfDays { get; set; }
 
