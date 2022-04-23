@@ -1,4 +1,5 @@
 ﻿using HRLeaveManagement.Application.Contracts;
+using HRLeaveManagement.Application.Contracts.Persistence;
 using HRLeaveManagement.Domain;
 
 namespace HRLeaveManagement.Persistence.Repositories

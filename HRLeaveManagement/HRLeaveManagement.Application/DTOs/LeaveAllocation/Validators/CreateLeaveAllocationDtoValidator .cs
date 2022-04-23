@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
 using HRLeaveManagement.Application.Contracts;
+using HRLeaveManagement.Application.Contracts.Persistence;
 
 namespace HRLeaveManagement.Application.DTOs.LeaveAllocation.Validators
 {

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using HRLeaveManagement.Application.Contracts;
+using HRLeaveManagement.Application.Contracts.Persistence;
 using HRLeaveManagement.Application.DTOs;
 using HRLeaveManagement.Application.DTOs.LeaveRequest;
 using HRLeaveManagement.Application.Features.LeaveRequests.Requests.Queries;

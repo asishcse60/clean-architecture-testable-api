@@ -1,4 +1,5 @@
 ﻿using HRLeaveManagement.Application.Contracts;
+using HRLeaveManagement.Application.Contracts.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace HRLeaveManagement.Persistence.Repositories

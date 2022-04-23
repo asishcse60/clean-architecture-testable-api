@@ -1,4 +1,4 @@
-﻿namespace HRLeaveManagement.Application.Contracts
+﻿namespace HRLeaveManagement.Application.Contracts.Persistence
 {
     public interface IGenericRepository<T> where T: class
     {

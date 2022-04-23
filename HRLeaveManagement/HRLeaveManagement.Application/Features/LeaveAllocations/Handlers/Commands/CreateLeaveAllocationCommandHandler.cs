@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HRLeaveManagement.Application.Contracts;
+using HRLeaveManagement.Application.Contracts.Persistence;
 using HRLeaveManagement.Application.DTOs.LeaveAllocation.Validators;
 using HRLeaveManagement.Application.Features.LeaveAllocations.Requests.Commands;
 using HRLeaveManagement.Application.Responses;
